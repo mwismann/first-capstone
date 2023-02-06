@@ -7,33 +7,183 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles/home-page.css">
+    
     <title>FreeForAil Conference</title>
 </head>
 <body>
 
     <header>
-        <section></section>
-        <section>
+        <section class="hidden py-2 pr-60 md:flex justify-end items-center gap-8 bg-[#272a31]">
+            <i class="lab la-facebook-f text-xl cursor-pointer"></i>
+            <i class="lab la-twitter text-2xl cursor-pointer"></i>
+            <p class="text-white cursor-pointer">English</p>
+            <p class="text-white cursor-pointer">My Page</p>
+            <p class="text-white cursor-pointer">Logout</p>
+        </section>
+        <section class="hidden md:flex py-4 shadow">
             <div class="logo-container">
-                <a href="index.html"><i class="las la-brain"></i> FreeForAil</a>
+                <a href="index.html" class="text-lg"><i class="las la-brain"></i> FreeForAil</a>
             </div>
-            <nav>
-                <ul>
+            <nav class="flex">
+                <ul class="flex">
                     <li>About</li>
                     <li>Program</li>
                     <li>Join</li>
                     <li>Sponsor</li>
                     <li>News</li>
                 </ul>
-                <button><i class="las la-bars"></i></button>
-                <button><i class="las la-times"></i></button>
             </nav>
         </section>
+        <div class="py-2 px-4 text-3xl bg-[#d3d3d3]/50">
+            <button><i class="las la-bars"></i></button>
+            <button><i class="las la-times hidden"></i></button>
+        </div>
     </header>
-    
 
+    <main class="container">
+        <section id="hero" class="py-8 px-2 bg-[#d3d3d3]/50">
+            <div class="heading px-1">
+                <p class="highlight text-xl">Think. Build. Share</p>
+                <h1 class="highlight text-2xl font-bold uppercase">
+                    AI quotidian applications
+                    <span class="block">2023 Summit</span>
+                </h1>
+            </div>
+    
+            <div class="border-2 border-white py-3 px-4">
+                <p class="text-sm">An unprecedented celebration to share the positive changes that
+                    everyday AI implementations could bring in taking place
+                    in September, in London.</p>
+            </div>
+    
+            <div class="heading px-1">
+                <h2>2023.09.16 (SAT) - 17 (SUN)</h2>
+                <h3>@The Natural History Museum</h3>
+            </div>
+        </section>
+    
+        <section id="main-program">
+            <h2>Main Program</h2>
+    
+            <div>
+                <div>
+                    <i class="las la-chalkboard-teacher"></i>
+                    <h3 class="highlight">Lecture</h3>
+                    <p>Listen to renown AI experts sharing their takes on ai quotidian implementation</p>
+                </div>
+                <div>
+                    <i class="las la-chalkboard-teacher"></i>
+                    <h3 class="highlight">AI Exhibition</h3>
+                    <p>Appreciate the genius of AI at work</p>
+                </div>
+                <div>
+                    <i class="las la-chalkboard-teacher"></i>
+                    <h3 class="highlight">Forum</h3>
+                    <p>Share your thoughts and opinions on the topics</p>
+                </div>
+                <div>
+                    <i class="las la-chalkboard-teacher"></i>
+                    <h3 class="highlight">Implementation</h3>
+                    <p>Get a taste of what life could be with the spreading of AI</p>
+                </div>
+                <div>
+                    <i class="las la-chalkboard-teacher"></i>
+                    <h3 class="highlight">Connect</h3>
+                    <p>Get on board the opportunity to connect with AI experts and funding companies around the world</p>
+                </div>
+            </div>
+
+            <button class="bg-highlight">AI QA 2023 Summit</button>
+        </section>
+        
+        <section id="featured-speakers">
+            <h2>Features Speakers</h2>
+
+            <div>
+                <div class="speaker-card">
+                    <i class="las la-chess-board"></i>
+                    <div class="card-img-container"><img src="img/gary-marcus.jpg" alt="Gary Marcus"></div>
+                    <div class="card-meta">
+                        <h3>Gary Marcus</h3>
+                        <p class="highlight">Professor emeritus of psychology and neural science at New York University
+                            and author</p>
+                        <p>In 2014 he founded Geometric Intelligence, a machine-learning company. His books include Guitar Zero and Kluge</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <i class="las la-chess-board"></i>
+                    <div class="card-img-container"><img src="img/demis-hassabis.jpg" alt="Demis Hassabis"></div>
+                    <div class="card-meta">
+                        <h3>Demis Hassabis</h3>
+                        <p class="highlight">Artificial Intelligence researcher, entrepreneur, and UK Government AI Advisor</p>
+                        <p>Chief executive and co-founder of DeepMind and Insomorphic Labs</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <i class="las la-chess-board"></i>
+                    <div class="card-img-container"><img src="img/fei-fei-li.jpg" alt="Fei-Fei Li"></div>
+                    <div class="card-meta">
+                        <h3>Fei-Fei Li</h3>
+                        <p class="highlight">Sequoia Capital Professor of Computer Science at Standford University</p>
+                        <p>Established ImageNet, the dataset that enabled rapid advances in computer vision in the 2010s</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <i class="las la-chess-board"></i>
+                    <div class="card-img-container"><img src="img/cynthia-breazeal.jpg" alt="Cynthia Breazeal"></div>
+                    <div class="card-meta">
+                        <h3>Cynthia Breazeal</h3>
+                        <p class="highlight">Professor of media arts and science at MIT</p>
+                        <p>Founded and directs the Personal Robots group at MIT's Media Lab</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <i class="las la-chess-board"></i>
+                    <div class="card-img-container"><img src="img/raymond-kurzweil.jpg" alt="Raymond Kurzweil"></div>
+                    <div class="card-meta">
+                        <h3>Raymond Kurzweil</h3>
+                        <p class="highlight">Computer scientist, author, investor, and futurist</p>
+                        <p>He is involved in fields such as optical character recognition,
+                            text-to-speech synthesis, speech recognition technology,
+                            and electronic keyboard instruments</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <i class="las la-chess-board"></i>
+                    <div class="card-img-container"><img src="img/jurgen-schmidhuber.jpg" alt="Jurgen Schmindhuber"></div>
+                    <div class="card-meta">
+                        <h3>Jurgen Schmindhuber</h3>
+                        <p class="highlight">Most noted for his work in the field of artificial intelligence,
+                            deep learning and artificial neural networks</p>
+                        <p>He is a co-director of the Dalle Molle Institute for Artificial Intelligence Research in Lugano,
+                            in Ticino in southern Switzerland</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="partners">
+            <h2>Partners</h2>
+
+            <ul>
+                <li><a href=""></a>OpenAI</li>
+                <li><a href=""></a>Google</li>
+                <li><a href=""></a>Meta Platforms</li>
+                <li><a href=""></a>NVIDIA</li>
+                <li><a href=""></a>Apple</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-[#d3d3d3] flex">
+        <div class="logo-container">
+            <a href="index.html" class="text-lg"><i class="las la-brain"></i> FreeForAil</a>
+        </div>
+        <span id="copyright">2023 FreeForAil. All Rights Reserved.</span>
+    </footer>
 
     <script src="scripts/config.js"></script>
 </body>

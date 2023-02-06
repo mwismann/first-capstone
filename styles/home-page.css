@@ -4,9 +4,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+
+  /* font-family: 'Lato', sans-serif; */
+  color: var(--main-dark);
 
   --main-dark: #272a31;
   --main-orange: #ec5242;
   --main-gray: #d3d3d3;
+}
+
+/* i,
+i::before,
+i::after {
+  font-family:  'Line Awesome Free';
+} */
+
+.highlight {
+  color: var(--main-orange);
+}
+
+.bg-highlight {
+  color: #fff;
+  background-color: var(--main-orange);
 }
