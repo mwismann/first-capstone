@@ -1,11 +1,8 @@
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Lato', sans-serif;
   color: var(--main-dark);
 
   --main-dark: #272a31;
@@ -26,4 +23,10 @@ i::after {
 .bg-highlight {
   color: #fff;
   background-color: var(--main-orange);
+}
+
+.icon-white,
+.icon-white::before,
+.icon-white::after {
+  color: #fff;
 }
