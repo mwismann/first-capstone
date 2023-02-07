@@ -24,7 +24,7 @@
 
 # 📖 [first-capstone] <a name="about-project"></a>
 
-**[first-capstone]** is my first near real-work project experience in which I set up a new Github repo, added files and configured code linters before ensuring that the git/github flows worked as expected. Then I proceeded to style the content focusing on a mobile-first approach, based on a Behance template.
+**[first-capstone]** is my first near real-work project experience in which I set up a new Github repo, added files and configured code linters before ensuring that the git/github flows worked as expected. Then I proceeded to style the content focusing on a mobile-first approach, based on an original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 🛠 Built With <a name="built-with"></a>
 
