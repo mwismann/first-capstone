@@ -32,16 +32,25 @@
             <nav>
                 <ul class="flex gap-12 xl:gap-20">
                     <li><a href="about.html" class="highlight text-xs xl:text-lg">About</a></li>
-                    <li><a href="#" class="text-xs xl:text-lg">Program</a></li>
+                    <li><a href="#main-program" class="text-xs xl:text-lg">Program</a></li>
                     <li><a href="#" class="text-xs xl:text-lg">Join</a></li>
-                    <li><a href="#" class="text-xs xl:text-lg">Sponsor</a></li>
+                    <li><a href="#partners" class="text-xs xl:text-lg">Sponsor</a></li>
                     <li><a href="#" class="text-xs xl:text-lg">News</a></li>
                 </ul>
             </nav>
         </section>
         <div class="py-2 px-4 text-3xl bg-[#d3d3d3] md:hidden">
-            <button><i class="las la-bars"></i></button>
-            <button><i class="las la-times hidden"></i></button>
+            <button class="open-mobile"><i class="las la-bars"></i></button>
+            <div class="mobile-menu hidden relative">
+                <ul class="fixed inset-0 pt-6 px-4 flex flex-col justify-center items-center bg-[#d3d3d3]">
+                    <button class="close-mobile absolute left-4 top-2"><i class="las la-times"></i></button>
+                    <li class="close-mobile w-full py-10 border-y-2 text-center"><a href="about.html" class="highlight text-sm">About</a></li>
+                    <li class="close-mobile w-full py-10 border-b-2 text-center"><a href="#main-program" class="text-sm">Program</a></li>
+                    <li class="close-mobile w-full py-10 border-b-2 text-center"><a href="#" class="text-sm">Join</a></li>
+                    <li class="close-mobile w-full py-10 border-b-2 text-center"><a href="#partners" class="text-sm">Sponsor</a></li>
+                    <li class="close-mobile w-full py-10 text-center"><a href="#" class="text-sm">News</a></li>
+                </ul>
+            </div>
         </div>
     </header>
 
