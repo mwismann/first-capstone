@@ -19,7 +19,7 @@ const closeMobileMenu = () => {
 };
 
 const renderSpeakersSection = () => {
-  speakersSection.classList.add('py-8', 'text-center', 'sm:pb-16', 'xl:pt-12', 'xl:pb-24', 'xl:h-[100vh]');
+  speakersSection.classList.add('py-8', 'text-center', 'sm:pb-16', 'xl:pt-12', 'xl:pb-24', 'xl:min-h-screen');
 
   const speakersContent = `<h2 class="text-xl font-semibold xl:text-3xl">Featured Speakers</h2>
     <div class="flex justify-center">
