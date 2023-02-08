@@ -9,13 +9,6 @@
   --main-orange: #e4250f;
   --main-gray: #dfdfdf;
 }
-
-/* i,
-i::before,
-i::after {
-  font-family:  'Line Awesome Free';
-} */
-
 .highlight {
   color: var(--main-orange);
 }
