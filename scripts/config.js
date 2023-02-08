@@ -28,9 +28,9 @@ const renderSpeakersSection = () => {
     </div>
 
     <div class="speakers-grid pl-2 pr-3 grid grid-cols-1 grid-rows-6 gap-8 md:grid-cols-2 md:grid-rows-3 md:gap-x-2 md:px-12 lg:px-36 xl:mt-8 xl:px-60 xl:gap-y-24">
-        <div class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-24">
+        <div class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-20">
             <i class="las la-chess-board text-7xl sm:text-8xl md:text-7xl md:text-[#d3d3d3] xl:text-8xl"></i>
-            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/gary-marcus.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/5 xl:h-36"></div>
+            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/gary-marcus.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/4 xl:h-36"></div>
             <span class="sr-only">A picture of Gary Marcus</span>
             <div class="card-meta flex flex-col justify-center items-start text-start">
                 <h3 class="font-semibold xl:text-2xl">Gary Marcus</h3>
@@ -40,9 +40,9 @@ const renderSpeakersSection = () => {
                 <p class="text-xs xl:text-base">In 2014 he founded Geometric Intelligence, a machine-learning company. His books include Guitar Zero and Kluge</p>
             </div>
         </div>
-        <div class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-24">
+        <div class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-20">
             <i class="las la-chess-board text-7xl sm:text-8xl md:text-7xl md:text-[#d3d3d3] xl:text-8xl"></i>
-            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/demis-hassabis.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/5 xl:h-36"></div>
+            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/demis-hassabis.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/4 xl:h-36"></div>
             <span class="sr-only">A picture of Demis Hassabis</span>
             <div class="card-meta flex flex-col justify-center items-start text-start">
                 <h3 class="font-semibold">Demis Hassabis</h3>
@@ -51,9 +51,9 @@ const renderSpeakersSection = () => {
                 <p class="text-xs xl:text-base">Chief executive and co-founder of DeepMind and Insomorphic Labs</p>
             </div>
         </div>
-        <div class="speaker-cards relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-24">
+        <div class="speaker-cards relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-20">
             <i class="las la-chess-board text-7xl sm:text-8xl md:text-7xl md:text-[#d3d3d3] xl:text-8xl"></i>
-            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/fei-fei-li.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/5 xl:h-36"></div>
+            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/fei-fei-li.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/4 xl:h-36"></div>
             <span class="sr-only">A picture of Fei-Fei Li</span>
             <div class="card-meta flex flex-col justify-center items-start text-start">
                 <h3 class="font-semibold">Fei-Fei Li</h3>
@@ -62,9 +62,9 @@ const renderSpeakersSection = () => {
                 <p class="text-xs xl:text-base">Established ImageNet, the dataset that enabled rapid advances in computer vision in the 2010s</p>
             </div>
         </div>
-        <div class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-24">
+        <div class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-20">
             <i class="las la-chess-board text-7xl sm:text-8xl md:text-7xl md:text-[#d3d3d3] xl:text-8xl"></i>
-            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/cynthia-breazeal.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/5 xl:h-36"></div>
+            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/cynthia-breazeal.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/4 xl:h-36"></div>
             <span class="sr-only">A picture of Cynthia Breazeal</span>
             <div class="card-meta flex flex-col justify-center items-start text-start">
                 <h3 class="font-semibold">Cynthia Breazeal</h3>
@@ -73,9 +73,9 @@ const renderSpeakersSection = () => {
                 <p class="text-xs xl:text-base">Founded and directs the Personal Robots group at MIT's Media Lab</p>
             </div>
         </div>
-        <div class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-24">
+        <div class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-20">
             <i class="las la-chess-board text-7xl sm:text-8xl md:text-7xl md:text-[#d3d3d3] xl:text-8xl"></i>
-            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/raymond-kurzweil.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/5 xl:h-36"></div>
+            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/raymond-kurzweil.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/4 xl:h-36"></div>
             <span class="sr-only">A picture of Raymond Kurzweil</span>
             <div class="card-meta flex flex-col justify-center items-start text-start">
                 <h3 class="font-semibold">Raymond Kurzweil</h3>
@@ -85,9 +85,9 @@ const renderSpeakersSection = () => {
                     text-to-speech synthesis, and speech recognition technology</p>
             </div>
         </div>
-        <div class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-24">
+        <div class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-20">
             <i class="las la-chess-board text-7xl sm:text-8xl md:text-7xl md:text-[#d3d3d3] xl:text-8xl"></i>
-            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/jurgen-schmidhuber.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/5 xl:h-36"></div>
+            <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url('img/jurgen-schmidhuber.jpg')] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/4 xl:h-36"></div>
             <span class="sr-only">A picture of Jurgen Schmindhuber</span>
             <div class="card-meta flex flex-col justify-center items-start text-start">
                 <h3 class="font-semibold">Jurgen Schmindhuber</h3>
