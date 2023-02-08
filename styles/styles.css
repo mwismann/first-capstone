@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: var(--main-dark);
+
+  --main-dark: #191d25;
+  --main-orange: #ec5242;
+  --main-gray: #dfdfdf;
+}
+
+.highlight {
+  color: var(--main-orange);
+}
+
+.bg-highlight {
+  color: #fff;
+  background-color: var(--main-orange);
+}
+
+.icon-white,
+.icon-white::before,
+.icon-white::after {
+  color: #fff;
+}

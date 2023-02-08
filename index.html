@@ -7,33 +7,146 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
-    <link rel="stylesheet" href="styles/home-page.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    
     <title>FreeForAil Conference</title>
 </head>
-<body>
-
-    <header>
-        <section></section>
-        <section>
+<body class="scroll-smooth">
+    <header class="shadow">
+        <section class="bg-[#272a31]">
+            <ul class="hidden w-3/4 mx-auto py-0.5 md:flex justify-end items-center gap-4 xl:gap-8">
+                <li><a href="#"><i class="lab la-facebook-f text-white text-xl hover:text-[#ec5242]"></i></a></li>
+                <li><a href="#"><i class="lab la-twitter text-lg text-white xl:text-2xl hover:text-[#ec5242]"></i></a></li>
+                <li><a href="#"><p class="text-xs text-white hover:text-[#ec5242]">English</p></a></li>
+                <li><a href="#"><p class="text-xs text-white hover:text-[#ec5242]">My Page</p></a></li>
+                <li><a href="#"><p class="text-xs text-white hover:text-[#ec5242]">Logout</p></a></li>
+            </ul>
+        </section>
+        <section class="hidden w-3/4 mx-auto md:flex justify-between py-4">
             <div class="logo-container">
-                <a href="index.html"><i class="las la-brain"></i> FreeForAil</a>
+                <a href="index.html" class="text-lg font-bold xl:text-2xl"><i class="las la-brain highlight"></i> FreeFor<span class="highlight">Ail</span></a>
+                <span class="sr-only">FreeForAil Logo</span>
             </div>
             <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Program</li>
-                    <li>Join</li>
-                    <li>Sponsor</li>
-                    <li>News</li>
+                <ul class="flex gap-12 xl:gap-[4.5rem]">
+                    <li><a href="about.html" class="text-xs xl:text-base hover:text-[#ec5242]">About</a></li>
+                    <li><a href="#main-program" class="text-xs xl:text-base hover:text-[#ec5242]">Program</a></li>
+                    <li><a href="#" class="text-xs xl:text-base hover:text-[#ec5242]">Join</a></li>
+                    <li><a href="#partners" class="text-xs xl:text-base hover:text-[#ec5242]">Sponsor</a></li>
+                    <li><a href="#" class="text-xs xl:text-base hover:text-[#ec5242]">News</a></li>
                 </ul>
-                <button><i class="las la-bars"></i></button>
-                <button><i class="las la-times"></i></button>
             </nav>
         </section>
+        <div class="absolute inset-x-0 py-2 px-4 text-3xl  bg-transparent md:hidden">
+            <button class="open-mobile"><i class="las la-bars"></i></button>
+            <div class="mobile-menu hidden relative">
+                <ul class="fixed inset-0 pt-6 px-4 flex flex-col justify-center items-center bg-[#d3d3d3]">
+                    <button class="close-mobile absolute left-4 top-2"><i class="las la-times"></i></button>
+                    <li class="close-mobile w-full py-7 border-y-2 text-center"><a href="index.html" class="highlight text-sm"><i class="las la-home text-[#ec5242]"></i> Home</a></li>
+                    <li class="close-mobile w-full py-7 border-b-2 text-center"><a href="about.html" class="text-sm">About</a></li>
+                    <li class="close-mobile w-full py-7 border-b-2 text-center"><a href="#main-program" class="text-sm">Program</a></li>
+                    <li class="close-mobile w-full py-7 border-b-2 text-center"><a href="#" class="text-sm">Join</a></li>
+                    <li class="close-mobile w-full py-7 border-b-2 text-center"><a href="#partners" class="text-sm">Sponsor</a></li>
+                    <li class="close-mobile w-full py-7 text-center"><a href="#" class="text-sm">News</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
-    
 
+    <section id="hero" class="bg-[url('img/pexels-tara-winstead-8386422.jpg')] bg-cover">
+        <span class="sr-only">An Android and an human reaching each other's hand</span>
+        <div class="pt-16 pb-14 px-2 bg-[#d3d3d3]/[.85] md:pb-20 md:px-24 lg:h-[90vh] lg:px-32 lg:flex lg:flex-col lg:justify-center xl:px-60">
+            <div class="heading px-1 md:px-0">
+                <p class="highlight text-xl md:text-2xl lg:mb-3 lg:text-3xl xl:text-5xl">Think. Build. Share</p>
+                <h1 class="highlight text-2xl font-bold uppercase md:text-3xl lg:text-[2.5rem] xl:text-7xl">
+                    AI quotidian applications
+                    <span class="block highlight">2023 Summit</span>
+                </h1>
+            </div>
+        
+            <div class="border-2 border-white my-4 py-3 px-4 md:w-3/4 lg:w-3/5 xl:w-1/2 xl:py-5">
+                <p class="text-sm font-semibold md:text-xs md:font-normal lg:text-sm xl:text-base">A celebration to share the positive changes that
+                    everyday AI implementations could bring, taking place
+                    this September in London.</p>
+            </div>
+        
+            <div class="heading px-1 tracking-wide md:pt-1 md:px-0">
+                <h2 class="text-lg font-bold md:text-xl lg:mb-1 lg:text-2xl xl:mb-2 xl:text-3xl xl:font-black">2023.09.16 (SAT) - 17 (SUN)</h2>
+                <h3 class="xl:text-xl">@The Natural History Museum</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section id="main-program" class="pt-8 bg-[#272a31] text-center md:pb-12 lg:pb-16 xl:min-h-[60vh]">
+        <h2 class="text-xl text-white font-semibold xl:text-3xl">Main Program</h2>
+        <div class="flex justify-center">
+            <i class="las la-minus text-2xl text-[#ec5242]"></i>
+            <i class="las la-minus text-2xl text-[#ec5242] ml-[-0.5rem]"></i>
+        </div>
+    
+        <article class="program-grid mt-3 px-3 flex flex-wrap gap-2 md:px-12 md:justify-center md:gap-1 md:flex-nowrap lg:px-36 xl:mt-6 xl:px-60">
+            <div class="program-card w-full py-2 px-4 grid grid-cols-6 items-center gap-x-10 text-start bg-white/[.05] sm:gap-1 md:w-1/5 md:py-5 md:grid-cols-1 md:grid-rows-5 md:h-44 lg:grid-rows-6 xl:h-72 xl:py-6 xl:px-6">
+                <i class="las la-chalkboard-teacher icon-white text-4xl sm:text-5xl md:text-center md:text-4xl lg:row-span-2 xl:text-6xl"></i>
+                <h3 class="highlight text-lg font-semibold col-span-2 md:col-span-1 md:text-center md:text-base xl:text-lg">Lecture</h3>
+                <p class="text-white text-xs col-span-3 md:col-span-1 md:row-span-3 md:self-start md:text-center xl:text-base">Listen to renown AI experts sharing their takes on ai quotidian implementation</p>
+            </div>
+            <div class="program-card w-full py-2 px-4 grid grid-cols-6 items-center gap-x-10 text-start bg-white/[.05] sm:gap-1 md:w-1/5 md:py-5 md:grid-cols-1 md:grid-rows-5 md:h-44 lg:grid-rows-6 xl:h-72 xl:py-6 xl:px-6">
+                <i class="las la-atom icon-white text-4xl sm:text-5xl md:text-center md:text-4xl lg:row-span-2 xl:text-6xl"></i>
+                <h3 class="highlight text-lg font-semibold col-span-2 md:col-span-1 md:text-center md:text-base xl:text-lg">AI Exhibition</h3>
+                <p class="text-white text-xs col-span-3 md:col-span-1 md:row-span-3 md:self-start md:text-center xl:text-base">Appreciate the genius of AI at work</p>
+            </div>
+            <div class="program-card w-full py-2 px-4 grid grid-cols-6 items-center gap-x-10 text-start bg-white/[.05] sm:gap-1 md:w-1/5 md:py-5 md:grid-cols-1 md:grid-rows-5 md:h-44 lg:grid-rows-6 xl:h-72 xl:py-6 xl:px-6">
+                <i class="las la-comments icon-white text-4xl sm:text-5xl md:text-center md:text-4xl lg:row-span-2 xl:text-6xl"></i>
+                <h3 class="highlight text-lg font-semibold col-span-2 md:col-span-1 md:text-center md:text-base xl:text-lg">Forum</h3>
+                <p class="text-white text-xs col-span-3 md:col-span-1 md:row-span-3 md:self-start md:text-center xl:text-base">Share your thoughts and opinions on the topics</p>
+            </div>
+            <div class="program-card w-full py-2 px-4 grid grid-cols-6 items-center gap-x-10 text-start bg-white/[.05] sm:gap-1 md:w-1/5 md:py-5 md:grid-cols-1 md:grid-rows-5 md:h-44 lg:grid-rows-6 xl:h-72 xl:py-6 xl:px-6">
+                <i class="las la-users icon-white text-4xl sm:text-5xl md:text-center md:text-4xl lg:row-span-2 xl:text-6xl"></i>
+                <h3 class="highlight text-lg font-semibold col-span-2 md:col-span-1 md:text-center md:text-base xl:text-lg">Trial</h3>
+                <p class="text-white text-xs col-span-3 md:col-span-1 md:row-span-3 md:self-start md:text-center xl:text-base">Get a taste of what life could be with the spreading of AI</p>
+            </div>
+            <div class="program-card w-full py-2 px-4 grid grid-cols-6 items-center gap-x-10 text-start bg-white/[.05] sm:gap-1 md:w-1/5 md:py-5 md:grid-cols-1 md:grid-rows-5 md:h-44 lg:grid-rows-6 xl:h-72 xl:py-6 xl:px-6">
+                <i class="las la-network-wired icon-white text-4xl sm:text-5xl md:text-center md:text-4xl lg:row-span-2 xl:text-6xl"></i>
+                <h3 class="highlight text-lg font-semibold col-span-2 md:col-span-1 md:text-center md:text-base xl:text-lg">Connect</h3>
+                <p class="text-white text-xs col-span-3 md:col-span-1 md:row-span-3 md:self-start md:text-center xl:text-base">Connect with AI experts and funding companies around the world</p>
+            </div>
+        </article>
+
+        <button class="bg-highlight my-10 py-5 px-14 text-lg md:hidden">AI QA 2023 Summit</button>
+        <a href="#" class="hidden mt-10 text-xs text-white uppercase border-b-2 md:inline-block lg:mt-12 xl:mt-20 hover:text-[#ec5242] hover:border-[#ec5242]">See the whole program</a>
+    </section>
+        
+    <section id="featured-speakers">
+    </section>
+    
+    <section id="partners" class="py-8 bg-[#272a31] text-center xl:py-16">
+        <h2 class="text-xl text-[#d3d3d3] font-semibold xl:text-3xl">Partners</h2>
+        <div class="flex justify-center">
+            <i class="las la-minus text-2xl text-[#ec5242]"></i>
+            <i class="las la-minus text-2xl text-[#ec5242] ml-[-0.5rem]"></i>
+        </div>
+
+        <ul class="mt-4 px-8 flex flex-wrap justify-center items-center gap-5 lg:mt-3 lg:gap-9 xl:mt-10 xl:gap-20">
+            <li><a href="" class="text-xl text-[#d3d3d3] font-bold md:text-2xl xl:text-[2.5rem] hover:text-[#ec5242]">OpenAI</a></li>
+            <li><a href="" class="text-xl text-[#d3d3d3] font-bold md:text-2xl xl:text-[2.5rem] hover:text-[#ec5242]">Google</a></li>
+            <li><a href="" class="text-xl text-[#d3d3d3] font-bold md:text-2xl xl:text-[2.5rem] hover:text-[#ec5242]">Meta Platforms</a></li>
+            <li><a href="" class="text-xl text-[#d3d3d3] font-bold md:text-2xl xl:text-[2.5rem] hover:text-[#ec5242]">NVIDIA</a></li>
+            <li><a href="" class="text-xl text-[#d3d3d3] font-bold md:text-2xl xl:text-[2.5rem] hover:text-[#ec5242]">Apple</a></li>
+        </ul>
+    </section>
+
+    <footer class="py-12 flex justify-evenly items-center gap-4 lg:px-40 xl:py-24 xl:px-60">
+        <div class="logo-container">
+            <a href="index.html" class="text-lg font-bold lg:text-3xl xl:text-4xl"><i class="las la-brain highlight"></i> FreeFor<span class="highlight">Ail</span></a>
+            <span class="sr-only">FreeForAil Logo</span>
+        </div>
+        <div id="copyright">
+            <span class="block text-xs md:inline xl:text-base">2023 FreeForAil Corp.</span>
+            <span class="block text-xs md:inline xl:text-base">All Rights Reserved.</span>
+        </div>
+    </footer>
 
     <script src="scripts/config.js"></script>
 </body>
