@@ -75,7 +75,7 @@ const renderSpeakersSection = () => {
   const speakersGrid = document.querySelector('.speakers-grid');
 
   speakersData.forEach((speaker) => speakersGrid.insertAdjacentHTML('beforeend',
-    `<div class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-20">
+    `<article class="speaker-card relative flex gap-16 md:gap-20 lg:gap-24 xl:gap-20">
     <i class="las la-chess-board text-7xl sm:text-8xl md:text-7xl md:text-[#d3d3d3] xl:text-8xl"></i>
     <div class="card-img-container absolute top-6 left-6 w-1/4 h-4/5 bg-[url(${speaker.img})] bg-cover max-[320px]:w-1/3 sm:w-1/6 sm:h-full md:w-2/6 md:h-2/3 lg:h-4/5 xl:w-1/4 xl:h-36"></div>
     <span class="sr-only">A picture of ${speaker.name}</span>
@@ -85,7 +85,7 @@ const renderSpeakersSection = () => {
         <i class="las la-minus"></i>
         <p class="text-xs xl:text-base">${speaker.description}</p>
     </div>
-    </div>`));
+    </article>`));
 };
 
 // --------- eventListeners -----------------------------
