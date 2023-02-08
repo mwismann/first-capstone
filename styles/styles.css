@@ -9,6 +9,7 @@
   --main-orange: #e4250f;
   --main-gray: #dfdfdf;
 }
+
 .highlight {
   color: var(--main-orange);
 }
